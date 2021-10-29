@@ -4,10 +4,9 @@ import {movies} from "./GetMovies";
 export default class Banner extends Component {
   render() {
     let movie = movies.results[0];
-    console.log(movie);
     return (
       <div>
-        {movies === "" ? (
+        {movie === "" ? (
           <div class="spinner-border text-primary" role="status">
             <span class="visually-hidden">Loading...</span>
           </div>

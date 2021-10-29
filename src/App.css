@@ -115,6 +115,10 @@
 .page-item{
   display: flex;
 }
+
+ul li {
+  cursor: pointer;
+}
 @media screen and (max-width: 400px) {
   .banner-card {
     height: 30vh;
